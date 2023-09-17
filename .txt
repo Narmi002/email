@@ -1,0 +1,11 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+</style>
+
+font-family: 'Mooli', sans-serif;
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+</style>
+
+font-family: 'Ubuntu', sans-serif;

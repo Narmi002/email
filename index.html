@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emailValidate.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+            <div class="logo">
+                <img src="email.png" alt="">
+                <span>emailValidate</span>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Enter Email to validate</h1>
+        <form action="/submit" method="post">
+            <label for="">Enter Email :</label>
+            <br>
+            <input type="email" name="myemail" id="email">
+            <br>
+            <button id="btn">Submit</button>
+        </form>
+        <div class="secondcontainer">
+            <img src="load.svg" id="load">
+            <h3 id="head">Your Results Here</h3>
+            <div id="result"></div>
+        </div>
+    </div>
+    <footer>&copyCopyright | emailValidate.com | All Rights Reserved </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
